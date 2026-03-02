@@ -1,0 +1,12 @@
+{
+  "files": {
+    "workflow-report": {
+      "filepath": "wf-metabarcoding-report.html",
+      "title": "Metabarcoding Report",
+      "description": "Ergebnisse der Analyse",
+      "mime-type": "text/html",
+      "optional": false,
+      "type": "aggregated"
+    }
+  }
+}
