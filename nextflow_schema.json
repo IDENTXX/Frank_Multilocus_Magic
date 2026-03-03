@@ -15,9 +15,10 @@
         },
         "db_choice": {
           "type": "string",
-          "title": "Referenzdatenbank",
-          "enum": ["oomycetes_cox", "fusarium_tef", "oomycetes_its", "custom_fasta"],
-          "default": "oomycetes_cox"
+          "title": "Multi-Locus Datenbank-Kombination",
+          "description": "Wählen Sie die Datenbank-Kombination für die parallele Analyse.",
+          "enum": ["oomycetes_cox_its", "fusarium_tef_its"],
+          "default": "oomycetes_cox_its"
         },
         "custom_db_path": {
           "type": "string",
